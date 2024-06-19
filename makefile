@@ -1,5 +1,5 @@
-slither : main.cpp
-	g++ main.cpp -lncurses -o slither && ./slither
+slither : main.cpp ui.cpp game.cpp
+	g++ main.cpp ui.cpp game.cpp -lncurses -o slither && ./slither
 
 
 cls : 
