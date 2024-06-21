@@ -10,6 +10,6 @@ void game_logic(){
       move(10,i);
       addch('#');
       i++;
-
+      if(i > 20) i=0;
 }
  
